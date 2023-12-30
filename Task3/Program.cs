@@ -10,8 +10,11 @@ void PrintArrayInReverse(int [] arr, int index)
     {
         if (index >= 0)
         {
-            Console.WriteLine(arr[index]);
+            
+            Console.Write(arr[index] + " ");
+            
             PrintArrayInReverse(arr, index -1);
+            
         }
     }
 
